@@ -1,13 +1,7 @@
 var express = require('express');
 var app = express();
 app.get('/',(req,res) =>
-{res.send("home");
-
-
-app.get('/',(req,res) =>
-{res.send("name :    ");
-app.get('/',(req,res) =>
-{res.send("submit :    ");});
+{res.send("home");});
 
 var port=process.env.PORT ||3000;
 app.listen( port,function()
