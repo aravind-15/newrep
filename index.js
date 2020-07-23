@@ -5,9 +5,9 @@ app.get('/',(req,res) =>
 
 });
 app.get('/',(req,res) =>
-{res.send("name :    ");
+{res.send("name :    ");});
 app.get('/',(req,res) =>
-{res.send("submit :    ");
+{res.send("submit :    ");});
 
 var port=process.env.PORT ||3000;
 app.listen( port,function()
