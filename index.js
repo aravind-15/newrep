@@ -3,9 +3,9 @@ var app = express();
 app.get('/',(req,res) =>
 {res.send("home");
 
-});
+
 app.get('/',(req,res) =>
-{res.send("name :    ");});
+{res.send("name :    ");
 app.get('/',(req,res) =>
 {res.send("submit :    ");});
 
