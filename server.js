@@ -9,7 +9,9 @@ app.get('/texttags',function(req,res) {
 app.get('/clock',function(req,res) {
     res.sendFile(__dirname+"/frontend/html/clock.html");
 });
-
+app.get('/tambola',function(req,res) {
+    res.sendFile(__dirname+"/frontend/html/tambola.html");
+});
     
 var port=process.env.PORT ||5000;
 app.listen( port,function(){
